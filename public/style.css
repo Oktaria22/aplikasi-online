@@ -1,0 +1,43 @@
+#BannerStore .bg-banner  {
+width: 100%;
+height: auto;
+    background: linear-gradient(270deg, #C83838 1.94%, #FFB11E 100%);
+    border-radius: 30px;
+    color: white;
+
+
+}
+
+#BannerStore .bg-banner 
+span {
+font-weight: bold;
+
+}
+
+
+#BannerStore .bg-banner
+h1 {
+    font-size: 35px;
+}
+
+
+#BannerStore .bg-banner
+.kolom-kiri {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+
+#CategoryStore
+.bg-category {
+
+    background: #FFFFFF;
+box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+
+#CategoryStore
+span {
+    font-weight: 12px
+}
+
