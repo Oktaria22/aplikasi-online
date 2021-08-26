@@ -1,7 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import landingpage from '../views/landingpage.vue'
+import Hijab from '../views/Hijab.vue'
+import HijabDetail from '../views/HijabDetail.vue'
+import Keranjang from '../views/Keranjang.vue'
+import PesananSukses from '../views/PesananSukses.vue'
+
+
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -11,9 +17,24 @@ const routes = [
     component: Home
   },
   {
-    path: '/landingpage',
-    name: 'landingpage',
-    component: landingpage
+    path: '/hijab',
+    name: 'Hijab',
+    component: Hijab
+  },
+  {
+    path: '/hijab/:id',
+    name: 'HijabDetail',
+    component: HijabDetail
+  },
+  {
+    path: '/Keranjang',
+    name: 'Keranjang',
+    component: Keranjang
+  },
+  {
+    path: '/pesanan-sukses',
+    name: 'PesananSukses',
+    component: PesananSukses
   },
   {
     path: '/about',
@@ -26,6 +47,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
+  mode: 'history',
+  base: process.env.BASE_URL,
   routes
 })
 

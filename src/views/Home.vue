@@ -1,25 +1,57 @@
 <template>
   <div class="home">
-    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <BannerStore/>
+    <Navbar />
+    <div class="container">
+      <Hero />
+      <div class="row mt-4">
+        <div class="col">
+          <h2>Best <strong>Hijab</strong></h2>
+        </div>
+        <div class="col">
+          <router-link to="/hijab" class="btn btn-success float-right">
+            <b-icon-eye></b-icon-eye> Lihat Semua 
+            </router-link>
+        </div>
+      </div>
 
-    <CategoryStore/>
-
+      <div class="row mb-4">
+        <div class="col-md-4 mt-4" v-for="product in products" :key="product.id">
+          <CardProduct :product="product"/>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
-import BannerStore from '../components/BannerStore.vue'
-import CategoryStore from '../components/CategoryStore.vue'
+import Navbar from "@/components/Navbar.vue";
+import Hero from "@/components/Hero.vue";
+import CardProduct from "@/components/CardProduct.vue";
+import axios from "axios";
+
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    // HelloWorld
-    BannerStore,
-    CategoryStore
-  }
-}
+    Navbar,
+    Hero,
+    CardProduct,
+  },
+  data() {
+    return {
+      products: [],
+    };
+  },
+  methods: {
+    setProducts(data) {
+      this.products = data;
+    },
+  },
+  mounted() {
+    axios
+      .get("http://localhost:3000/best-products")
+      .then((response) => this.setProducts(response.data))
+      .catch((error) => console.log(error))
+  },
+};
 </script>

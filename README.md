@@ -1,9 +1,15 @@
-# synapse-store
+# olshop-hijab
 
 ## Project setup
 ```
 npm install
 ```
+
+### Running dummy rest api
+```
+npx json-server --watch backend/db.json 
+```
+
 
 ### Compiles and hot-reloads for development
 ```

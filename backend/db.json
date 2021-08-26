@@ -1,0 +1,677 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "kode": "ceruty",
+      "nama": "Pashmina Ceruty",
+      "harga": 35000,
+      "is_ready": true,
+      "gambar": "ceruty.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "bella",
+      "nama": "Bella Square",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "bella.webp"
+    },
+    {
+      "id": 3,
+      "kode": "plisket",
+      "nama": "Pashmina Plisket",
+      "harga": 37000,
+      "is_ready": true,
+      "gambar": "plisket.webp"
+    },
+    {
+      "id": 4,
+      "kode": "ciput",
+      "nama": "Ciput Rajut",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "ciputrajut.jpeg"
+    },
+    {
+      "id": 5,
+      "kode": "inner",
+      "nama": "Inner Ninja",
+      "harga": 30000,
+      "is_ready": true,
+      "gambar": "inner.jpg"
+    },
+    {
+      "id": 6,
+      "kode": "crinkle",
+      "nama": "Pashmina Crnkle",
+      "harga": 22000,
+      "is_ready": true,
+      "gambar": "crinkle.jpg"
+    },
+    {
+      "id": 7,
+      "kode": "bergo",
+      "nama": "Hijab Bergo Maryam",
+      "harga": 22000,
+      "is_ready": true,
+      "gambar": "bergo.webp"
+    }
+  ],
+  "best-products": [
+    {
+      "id": 1,
+      "kode": "ceruty",
+      "nama": "Pashmina Ceruty",
+      "harga": 35000,
+      "is_ready": true,
+      "gambar": "ceruty.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "bella",
+      "nama": "Bella Square",
+      "harga": 18000,
+      "is_ready": true,
+      "gambar": "bella.webp"
+    },
+    {
+      "id": 3,
+      "kode": "plisket",
+      "nama": "Pashmina Plisket",
+      "harga": 37000,
+      "is_ready": true,
+      "gambar": "plisket.webp"
+    }
+  ],
+  "best-keranjang": [
+    {
+      "jumlah_pesanan": "1",
+      "keterangan": "a",
+      "products": {
+        "id": 2,
+        "kode": "bella",
+        "nama": "Bella Square",
+        "harga": 18000,
+        "is_ready": true,
+        "gambar": "bella.webp"
+      },
+      "id": 1
+    },
+    {
+      "jumlah_pesanan": "1",
+      "keterangan": "a",
+      "products": {
+        "id": 2,
+        "kode": "bella",
+        "nama": "Bella Square",
+        "harga": 18000,
+        "is_ready": true,
+        "gambar": "bella.webp"
+      },
+      "id": 2
+    },
+    {
+      "jumlah_pesanan": "1",
+      "keterangan": "a",
+      "products": {
+        "id": 2,
+        "kode": "bella",
+        "nama": "Bella Square",
+        "harga": 18000,
+        "is_ready": true,
+        "gambar": "bella.webp"
+      },
+      "id": 3
+    },
+    {
+      "jumlah_pesanan": "2",
+      "keterangan": "ew",
+      "products": {
+        "id": 2,
+        "kode": "bella",
+        "nama": "Bella Square",
+        "harga": 18000,
+        "is_ready": true,
+        "gambar": "bella.webp"
+      },
+      "id": 4
+    },
+    {
+      "jumlah_pesanan": "2",
+      "keterangan": "ew",
+      "products": {
+        "id": 2,
+        "kode": "bella",
+        "nama": "Bella Square",
+        "harga": 18000,
+        "is_ready": true,
+        "gambar": "bella.webp"
+      },
+      "id": 5
+    },
+    {
+      "jumlah_pesanan": "2",
+      "keterangan": "ew",
+      "products": {
+        "id": 2,
+        "kode": "bella",
+        "nama": "Bella Square",
+        "harga": 18000,
+        "is_ready": true,
+        "gambar": "bella.webp"
+      },
+      "id": 6
+    },
+    {
+      "jumlah_pesanan": "1",
+      "keterangan": "dr",
+      "products": {
+        "id": 1,
+        "kode": "ceruty",
+        "nama": "Pashmina Ceruty",
+        "harga": 35000,
+        "is_ready": true,
+        "gambar": "ceruty.jpg"
+      },
+      "id": 7
+    },
+    {
+      "jumlah_pesanan": "1",
+      "keterangan": "dr",
+      "products": {
+        "id": 1,
+        "kode": "ceruty",
+        "nama": "Pashmina Ceruty",
+        "harga": 35000,
+        "is_ready": true,
+        "gambar": "ceruty.jpg"
+      },
+      "id": 8
+    },
+    {
+      "jumlah_pesanan": "1",
+      "keterangan": "hh",
+      "products": {
+        "id": 1,
+        "kode": "ceruty",
+        "nama": "Pashmina Ceruty",
+        "harga": 35000,
+        "is_ready": true,
+        "gambar": "ceruty.jpg"
+      },
+      "id": 9
+    },
+    {
+      "jumlah_pesanan": "1",
+      "keterangan": "hh",
+      "products": {
+        "id": 1,
+        "kode": "ceruty",
+        "nama": "Pashmina Ceruty",
+        "harga": 35000,
+        "is_ready": true,
+        "gambar": "ceruty.jpg"
+      },
+      "id": 10
+    },
+    {
+      "jumlah_pesanan": "1",
+      "keterangan": "ggg",
+      "products": {
+        "id": 1,
+        "kode": "ceruty",
+        "nama": "Pashmina Ceruty",
+        "harga": 35000,
+        "is_ready": true,
+        "gambar": "ceruty.jpg"
+      },
+      "id": 11
+    },
+    {
+      "jumlah_pesanan": "1",
+      "keterangan": "dfd",
+      "products": {
+        "id": 1,
+        "kode": "ceruty",
+        "nama": "Pashmina Ceruty",
+        "harga": 35000,
+        "is_ready": true,
+        "gambar": "ceruty.jpg"
+      },
+      "id": 12
+    },
+    {
+      "jumlah_pesanan": "1",
+      "keterangan": "zxazx",
+      "products": {
+        "id": 1,
+        "kode": "ceruty",
+        "nama": "Pashmina Ceruty",
+        "harga": 35000,
+        "is_ready": true,
+        "gambar": "ceruty.jpg"
+      },
+      "id": 13
+    },
+    {
+      "jumlah_pesanan": "3",
+      "keterangan": "wqw",
+      "products": {
+        "id": 1,
+        "kode": "ceruty",
+        "nama": "Pashmina Ceruty",
+        "harga": 35000,
+        "is_ready": true,
+        "gambar": "ceruty.jpg"
+      },
+      "id": 14
+    },
+    {
+      "jumlah_pesanan": "5",
+      "keterangan": "gyhg",
+      "products": {
+        "id": 1,
+        "kode": "ceruty",
+        "nama": "Pashmina Ceruty",
+        "harga": 35000,
+        "is_ready": true,
+        "gambar": "ceruty.jpg"
+      },
+      "id": 15
+    }
+  ],
+  "keranjang": [],
+  "pesanan": [
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 1
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 2
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 3
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 4
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 5
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 6
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 7
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 8
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 9
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 10
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 11
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 12
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 13
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 14
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 15
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 16
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 17
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 18
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 19
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 20
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 21
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 22
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 23
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 24
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 25
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 26
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 27
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 28
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 29
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 30
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 31
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 32
+    },
+    {
+      "nama": "wiwik",
+      "modelHijab": "ashmima",
+      "id": 33
+    },
+    {
+      "nama": "hhh",
+      "modelHijab": "l;k",
+      "keranjang": [
+        {
+          "jumlah_pesanan": "1",
+          "keterangan": "biru",
+          "products": {
+            "id": 2,
+            "kode": "bella",
+            "nama": "Bella Square",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "bella.webp"
+          },
+          "id": 1
+        },
+        {
+          "jumlah_pesanan": "2",
+          "keterangan": "hitam,mocca",
+          "products": {
+            "id": 5,
+            "kode": "inner",
+            "nama": "Inner Ninja",
+            "harga": 30000,
+            "is_ready": true,
+            "gambar": "inner.jpg"
+          },
+          "id": 2
+        },
+        {
+          "jumlah_pesanan": "2",
+          "keterangan": "biru,abu",
+          "products": {
+            "id": 1,
+            "kode": "ceruty",
+            "nama": "Pashmina Ceruty",
+            "harga": 35000,
+            "is_ready": true,
+            "gambar": "ceruty.jpg"
+          },
+          "id": 3
+        }
+      ],
+      "id": 34
+    },
+    {
+      "nama": "dfdf",
+      "modelHijab": "fddf",
+      "keranjang": [
+        {
+          "jumlah_pesanan": "1",
+          "keterangan": "dsds",
+          "products": {
+            "id": 2,
+            "kode": "bella",
+            "nama": "Bella Square",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "bella.webp"
+          },
+          "id": 1
+        }
+      ],
+      "id": 35
+    },
+    {
+      "nama": "hjgu",
+      "modelHijab": "hkjhk",
+      "keranjang": [
+        {
+          "jumlah_pesanan": "1",
+          "keterangan": "fdf",
+          "products": {
+            "id": 2,
+            "kode": "bella",
+            "nama": "Bella Square",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "bella.webp"
+          },
+          "id": 1
+        }
+      ],
+      "id": 36
+    },
+    {
+      "nama": "kj",
+      "modelHijab": "nj",
+      "keranjang": [
+        {
+          "jumlah_pesanan": "56",
+          "keterangan": "hui",
+          "products": {
+            "id": 2,
+            "kode": "bella",
+            "nama": "Bella Square",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "bella.webp"
+          },
+          "id": 1
+        }
+      ],
+      "id": 37
+    },
+    {
+      "nama": "yy",
+      "modelHijab": "jhjh",
+      "keranjang": [
+        {
+          "jumlah_pesanan": "6",
+          "keterangan": "uu",
+          "products": {
+            "id": 2,
+            "kode": "bella",
+            "nama": "Bella Square",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "bella.webp"
+          },
+          "id": 1
+        }
+      ],
+      "id": 38
+    },
+    {
+      "nama": "yy",
+      "modelHijab": "jhjh",
+      "keranjang": [
+        {
+          "jumlah_pesanan": "6",
+          "keterangan": "uu",
+          "products": {
+            "id": 2,
+            "kode": "bella",
+            "nama": "Bella Square",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "bella.webp"
+          },
+          "id": 1
+        }
+      ],
+      "id": 39
+    },
+    {
+      "nama": "yy",
+      "modelHijab": "jhjh",
+      "keranjang": [
+        {
+          "jumlah_pesanan": "6",
+          "keterangan": "uu",
+          "products": {
+            "id": 2,
+            "kode": "bella",
+            "nama": "Bella Square",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "bella.webp"
+          },
+          "id": 1
+        }
+      ],
+      "id": 40
+    },
+    {
+      "nama": "ere",
+      "modelHijab": "ere",
+      "keranjang": [
+        {
+          "jumlah_pesanan": "1",
+          "keterangan": "dd",
+          "products": {
+            "id": 2,
+            "kode": "bella",
+            "nama": "Bella Square",
+            "harga": 18000,
+            "is_ready": true,
+            "gambar": "bella.webp"
+          },
+          "id": 1
+        }
+      ],
+      "id": 41
+    },
+    {
+      "nama": "er",
+      "modelHijab": "fdf",
+      "keranjang": [
+        {
+          "jumlah_pesanan": "1",
+          "keterangan": "sds",
+          "products": {
+            "id": 1,
+            "kode": "ceruty",
+            "nama": "Pashmina Ceruty",
+            "harga": 35000,
+            "is_ready": true,
+            "gambar": "ceruty.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 42
+    },
+    {
+      "nama": "okta",
+      "modelHijab": "pashmina",
+      "keranjang": [
+        {
+          "jumlah_pesanan": "2",
+          "keterangan": "abyu",
+          "products": {
+            "id": 1,
+            "kode": "ceruty",
+            "nama": "Pashmina Ceruty",
+            "harga": 35000,
+            "is_ready": true,
+            "gambar": "ceruty.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 43
+    }
+  ]
+}
